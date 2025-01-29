@@ -7,6 +7,10 @@
 1. VSCodeのコマンドパレット（Ctrl + Shift + P）で「Remote-Containers: Attach to Running Container」を選択
 1. 実行中のコンテナを選択
 
+## 諸注意
+- Jupyter Notebook 実行時に /app/src/ を検索パスとして追加するように Dockerfileに設定している
+  （Jupyterから単純に相対パスでは指定できないため）
+
 ## CheckList
 - [ ] 第1章　行列と連立方程式1
   - [ ] 1.1　行列とベクトル
