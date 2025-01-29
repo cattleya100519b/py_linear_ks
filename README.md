@@ -4,22 +4,23 @@
 - 神永 正博
 
 ## Jupyter Notebook のkernel選択方法
-1. VSCodeのコマンドパレット（Ctrl + Shift + P）で「Remote-Containers: Attach to Running Container」を選択
+1. VSCodeのコマンドパレット`Ctrl + Shift + P`で`Remote-Containers: Attach to Running Container`を選択
 1. 実行中のコンテナを選択
 
 ## 諸注意
-- Jupyter Notebook 実行時に /app/src/ を検索パスとして追加するように Dockerfileに設定している
+- Jupyter Notebook 実行時に `/app/src/`を検索パスとして追加するように`Dockerfile`に設定している
   （Jupyterから単純に相対パスでは指定できないため）
+- 自作ライブラリの変更をJupyter Notebookに反映させるためには、`Run All`の右隣にある`Restart (Kernel)`を押すこと
 
 ## CheckList
-- [ ] 第1章　行列と連立方程式1
-  - [ ] 1.1　行列とベクトル
-  - [ ] 1.2　行列の基本変形と連立方程式
-  - [ ] 1.3　行列に演算を入れる
-  - [ ] 1.4　Pythonにおける行列の表現と簡単な計算
-  - [ ] 1.5　行列の積
+- [x] 第1章　行列と連立方程式1
+  - [x] 1.1　行列とベクトル
+  - [x] 1.2　行列の基本変形と連立方程式
+  - [x] 1.3　行列に演算を入れる
+  - [x] 1.4　Pythonにおける行列の表現と簡単な計算
+  - [x] 1.5　行列の積
 - [ ] 第2章　行列と連立方程式2
-  - [ ] 2.1　行列の積の成分表示
+  - [x] 2.1　行列の積の成分表示
   - [ ] 2.2　行列の積と基本変形の関係・Pythonによる行列成分の操作
   - [ ] 2.3　解がただ一つに定まらない場合
   - [ ] 2.4　Pythonで連立方程式を解く

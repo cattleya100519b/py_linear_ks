@@ -7,6 +7,12 @@ def disp_mat(name_mat: str, mat: any) -> None:
     """
     from IPython.display import display, Math
     from sympy import latex, Matrix
+    import numpy as np
+
+    # スカラーの場合はそのまま表示
+    if np.isscalar(mat):
+        display(Math(f'{name_mat}={latex(mat)}'))
+        return
 
     # numpy.ndarray(etc.) >> sympy.Matrixインスタンス >> LaTeX文字列 >> LaTeX数式
     display(Math(f'{name_mat}={latex(Matrix(mat))}'))
