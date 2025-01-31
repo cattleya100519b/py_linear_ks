@@ -1,16 +1,5 @@
-## 書籍
-- Pythonでしっかり学ぶ線形代数 行列の基礎から特異値分解まで
-- 講談社
-- 神永 正博
-
-## Jupyter Notebook のkernel選択方法
-1. VSCodeのコマンドパレット`Ctrl + Shift + P`で`Remote-Containers: Attach to Running Container`を選択
-1. 実行中のコンテナを選択
-
-## 諸注意
-- Jupyter Notebook 実行時に `/app/src/`を検索パスとして追加するように`Dockerfile`に設定している
-  （Jupyterから単純に相対パスでは指定できないため）
-- 自作ライブラリの変更をJupyter Notebookに反映させるためには、`Run All`の右隣にある`Restart (Kernel)`を押すこと
+## Book
+- [Pythonでしっかり学ぶ線形代数 行列の基礎から特異値分解まで](https://www.kspub.co.jp/book/detail/5303757.html)
 
 ## CheckList
 - [x] 第1章　行列と連立方程式1
@@ -75,3 +64,12 @@
   - [ ] 12.1　特異値分解とは
   - [ ] 12.2　低ランク近似の基本原理
   - [ ] 12.3　Pythonで画像圧縮
+
+## Jupyter Notebook のkernel選択方法
+1. VSCodeのコマンドパレット`Ctrl + Shift + P`で`Remote-Containers: Attach to Running Container`を選択
+1. 実行中のコンテナを選択
+
+## 諸注意
+- Jupyter Notebook 実行時に `/app/src/`を検索パスとして追加するように`Dockerfile`に設定している
+  （Jupyterから単純に相対パスでは指定できないため）
+- 自作ライブラリの変更をJupyter Notebookに反映させるためには、`Run All`の右隣にある`Restart (Kernel)`を押すこと
