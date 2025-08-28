@@ -1,5 +1,8 @@
 ## Book
 - [Pythonでしっかり学ぶ線形代数 行列の基礎から特異値分解まで](https://www.kspub.co.jp/book/detail/5303757.html)
+- Purchase Date: YYMMDD (kinoppy)
+
+<img src="https://www.kspub.co.jp/book/detail/images/3a43efed804dabc32a7a1913cdc3ab0c7e1168ff.jpg" height=150px>
 
 ## CheckList
 - [x] 第1章　行列と連立方程式1

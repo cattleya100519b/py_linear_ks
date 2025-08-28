@@ -1,5 +1,5 @@
 FROM python:latest
-WORKDIR /app
+WORKDIR /app/src
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 # Dockerコンテナ内で新しいKernelを登録
