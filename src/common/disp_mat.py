@@ -1,3 +1,8 @@
+from IPython.display import display, Math
+from sympy import latex, Matrix
+import numpy as np
+
+
 def disp_mat(name_mat: str, mat: any) -> None:
     """jupyter notebook 内で行列を LaTeX 表示で出力する関数
     
@@ -5,9 +10,6 @@ def disp_mat(name_mat: str, mat: any) -> None:
         name_mat (str): LaTeX 文字列
         mat: 数値配列 (numpy.ndarray, list, etc.)
     """
-    from IPython.display import display, Math
-    from sympy import latex, Matrix
-    import numpy as np
 
     # スカラーの場合はそのまま表示
     if np.isscalar(mat):
