@@ -5,7 +5,7 @@ from sympy.core import Basic
 
 def disp_tex(str_tex: str | Basic) -> None:
     """
-    Display LaTeX string in Jupyter Notebook.
+    Display LaTeX string in Jupyter Notebook.  
     （要は、
     from IPython.display import display, Math
     を省略できるだけ）
